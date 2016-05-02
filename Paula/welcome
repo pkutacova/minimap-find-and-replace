@@ -1,0 +1,723 @@
+ <tr>
+            <td vAlign=middle width=99><a href="http://www.bell.ca/" target=_blank><img style="DISPLAY: block" border=0 alt=Bell src="http://callback.bell.ca/campaignmanagement/images/logo.gif" width=65 height=45></a></td>
+            <td vAlign=middle width=500>
+            <table border=0 cellSpacing=0 cellPadding=0 width=500 align=right>
+                <tbody>
+                    <tr height=15>
+                        <td colSpan=5 align=right><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(161,161,161); FONT-SIZE: 11px"></span></td>
+                    </tr>
+                    <tr height=1>
+                        <td colSpan=5 align=right><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=42 height=12> </td>
+                    </tr>
+                    <tr>
+                        <td width=382></td>
+                        <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=42 height=1></td>
+                        <td colSpan=2></td>
+                    </tr>
+                    <tr>
+                        
+						#if ($MYBELL_REG == "Y")
+						<td colSpan=5 align=right><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(161,161,161); FONT-SIZE: 11px">
+						Log in to<a style="COLOR: rgb(0,68,138); TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=https%3A%2F%2Fmybell.bell.ca%2FLogin&nc=$notifID.$confID" target=_blank>&nbsp;MyBell</a></span></td>
+						#else   <!--if  ($MYBELL_REG == "N") -->
+						<td colSpan=5 align=right><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(161,161,161); FONT-SIZE: 11px">
+						Register at<a style="COLOR: rgb(0,68,138); TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=https%3A%2F%2Fmybell.bell.ca%2FRegistration&nc=$notifID.$confID" target=_blank>&nbsp;MyBell</a></span></td>
+						#end
+					</tr>
+                    <tr>
+                        <td width=382></td>
+                        <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=42 height=10></td>
+                        <td colSpan=2></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<table border=0 cellSpacing=0 cellPadding=0 width=599 align=center>
+    <tbody>
+        <tr>
+            <td width=599><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/main_top.jpg" width=599 height=11></td>
+        </tr>
+        <!-- top header-->
+        <tr>
+            <td style="BORDER-LEFT: rgb(225,225,225) 1px solid; BORDER-RIGHT: rgb(225,225,225) 1px solid">
+            <table border=0 cellSpacing=0 cellPadding=0 width=597>
+                <tbody>
+                    <tr>
+                        <td vAlign=top width=384>
+                        <table border=0 cellSpacing=0 cellPadding=0>
+                            <tbody>
+                                <tr>
+                                    <td vAlign=top width=384 colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=35></td>
+                                </tr>
+                                <tr>
+                                    <td vAlign=top width=55><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=55 height=1></td>
+                                    
+
+									<td vAlign=top width=310><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,0,0); FONT-SIZE: 33px">Thank you for continuing to choose Bell Mobility.</span> 
+			
+									
+									<br><br><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">Hello $FIRSTNAME, 
+									
+									<br><br>We appreciate your business. Below, you'll find important information about your account and bill, plus helpful tips on making the most of your service. We encourage you to save this email for future reference.<br><br>Your Bell Customer Care team</span></td>
+
+
+								   <td vAlign=top width=14><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=14 height=1></td>
+                                </tr>
+                                <tr>
+                                    <td vAlign=top width=384 colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=21></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        </td>
+                        <td vAlign=bottom width=213><img style="DISPLAY: block" alt="Get Started" src="http://callback.bell.ca/campaignmanagement/images/header_girl.jpg" width=213 height=336></td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <!-- end top header--><!-- nav bar -->
+        <tr>
+            <td style="BORDER-LEFT: rgb(225,225,225) 1px solid; BORDER-RIGHT: rgb(225,225,225) 1px solid">
+            <table border=0 cellSpacing=0 cellPadding=0 width="100%">
+                <tbody>
+                    <tr>
+                        <td style="BACKGROUND-COLOR: rgb(226,226,226)" height=40 vAlign=middle width=597 align=center><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="#AccountInfo">Account information</a> &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; <a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="#Billing">Billing information</a> &nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; <a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="#SelfServe">Self serve</a> &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;<a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="#GettingStarted">Getting started</a></span> </td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <!-- end nav bar -->
+        <tr>
+            <td style="BORDER-LEFT: rgb(225,225,225) 1px solid; BACKGROUND-COLOR: rgb(242,242,242); BORDER-RIGHT: rgb(225,225,225) 1px solid" vAlign=top>
+            <table border=0 cellSpacing=0 cellPadding=0 width=597>
+                <tbody>
+                    <tr>
+                        <td height=8 vAlign=top width=519>
+                        <table border=0 cellSpacing=0 cellPadding=0 width=519>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                    <table border=0 cellSpacing=0 cellPadding=0 width=597>
+                                        <tbody>
+                                            <tr>
+                                                <td height=21 vAlign=top width=597 colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=21></td>
+                                            </tr>
+                                            <!-- account information -->
+                                            <tr>
+                                                <td vAlign=top width=39><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=39 height=1></td>
+                                                <td height=8 vAlign=top width=519>
+                                                <table border=0 cellSpacing=0 cellPadding=0 width=519>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/inner_top.jpg" width=519 height=8></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="BORDER-LEFT: rgb(225,225,225) 1px solid; BACKGROUND-COLOR: rgb(255,255,255); BORDER-RIGHT: rgb(225,225,225) 1px solid" vAlign=top width=519><a name=AccountInfo></a>
+                                                            <table border=0 cellSpacing=0 cellPadding=0 width=517>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=15></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td vAlign=top width=25><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=25 height=1></td>
+                                                                        <td vAlign=top width=467>
+                                                                        <table border=0 cellSpacing=0 cellPadding=0 width=467>
+                                                                            <!-- REPLACED THIS: --><!--
+                                                                            <tr>
+                                                                                <td valign="top" width="11%" height="36"><img src="images/icon_accountinformation.jpg" alt="Info" width="37" height="36" border="0" style="display:block;"></td>
+                                                                                <td valign="middle" width="89%" height="36"><span style="font-size:20px; color:#000000; font-family:Arial, Helvetica, sans-serif;">Your account information.</span></td>
+                                                                            </tr>
+                                                                            --><!-- WITH THIS: --><!-- START -->
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2>
+                                                                                    <table border=0 cellSpacing=0 cellPadding=0 width="100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td height=36 vAlign=top width="11%"><img style="DISPLAY: block" border=0 alt=Info src="http://callback.bell.ca/campaignmanagement/images/icon_accountinformation.jpg" width=37 height=36></td>
+                                                                                                <td height=36 vAlign=middle width="89%"><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,0,0); FONT-SIZE: 20px">Your account information.</span></td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- END -->
+                                                                                <tr>
+                                                                                    <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2>
+                                                                                    <table border=0 cellSpacing=0 cellPadding=0 width=467>
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td vAlign=top width=300><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><strong>Customer name:</strong>&nbsp;$FIRSTNAME&nbsp;$LASTNAME</span></td>
+                                                                                                <td vAlign=top width=167><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&nbsp;</span></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><strong>Account number:</strong>&nbsp;$Account</span></td>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&nbsp;</span></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><strong>Mobile number:</strong>&nbsp;$CTN</span></td>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&nbsp;</span></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><strong>Bill date:</strong>&nbsp;$BILLDATE_TXT</span></td>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&nbsp;</span></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                            </tr>
+																							
+																							#if ("$START_DATE" != "") 
+                                                                                            <tr>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><strong>Commitment start date:</strong>&nbsp;$START_DATE</span></td>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&nbsp;</span></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                            </tr>
+																							#end
+																							
+																							#if ("$END_DATE" != "")
+																							<tr>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><strong>Commitment end date:</strong>&nbsp;$END_DATE</span></td>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&nbsp;</span></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                        	</tr>
+																							#end
+																							
+																						#if ($PHONE_DETAILS == "Y")
+																							<tr>
+																								<td valign="top"><span  style="font-size: 12px; color: rgb(102, 102, 102); font-family: Arial,Helvetica,sans-serif;"><b>Device:</b>&nbsp;$MODELDESC</span>
+																							</td>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&nbsp;</span></td>
+																							</tr>
+																						 	<tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                            </tr> 
+																							#end
+																								
+																						#if ($PPTODISPLAY == "Y")
+																							<tr>
+																							<td valign="top"><span  style="font-size: 12px; color: rgb(102, 102, 102); font-family: Arial,Helvetica,sans-serif;"><b>Your plan:</b>&nbsp;$PPDESC</span></td>
+																							<td valign="top"><span style="font-family: Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); font-size: 12px;">&nbsp;</span></td>
+																							</tr>
+																							<tr><td valign="top"><img src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" alt="" style="display: block;" border="0" height="1" width="300"></td>
+																							<td valign="top"><img  style="display: block;" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" border="0" height="4" width="140"></td>
+																							</tr>
+																							#end
+																							
+																							
+																							#set ($INCLFEATURES = "$INCLFEATURES")
+																							#if ($INCLFEATURES != "")
+																							#set($INCLFEATURES_1 = $INCLFEATURES.replace('\n', '<br />')) 
+																							<tr>
+																							<td valign="top"><span  style="font-size: 12px; color: rgb(102, 102, 102); font-family: Arial,Helvetica,sans-serif;"><b>Included in your plan:</b>
+																							<br>$INCLFEATURES_1</span></td>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&nbsp;</span></td>
+																							</tr>
+                                                                                             <tr>
+																							   <td valign="top"><img src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" alt="" style="display: block;" border="0" height="4" width="300"></td>
+																							</tr>
+                                                                             				#end
+																							
+																							#set ($ADDFEATURES = "$ADDFEATURES")
+																							#if ($ADDFEATURES == "")
+																							<tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                            </tr>
+																							#else
+																							#set ($ADDFEATURES_1 = $ADDFEATURES.replace('\n', '<br />')) 
+																								<tr>
+																								<td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><strong>Additional Features:</strong>
+																								<br>$ADDFEATURES_1</span></td>
+                                                                                                <td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&nbsp;</span></td>
+																								  </tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                            </tr>
+																							
+																							#end
+																								
+																							#if ($MCTEXT == "Y" )
+																							<tr>
+																								<td vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><strong>Voicemail/Message Centre: </strong>
+																								</b><br>Temporary password:&nbsp;$MCPW
+																								<br><a href="https://servicemobility.bell.ca/TE/CT.do?d=http%3A%2F%2Fsoutien.bell.ca%2FMobilite%2FForfaits_et_options%2FComment_le_Centre_de_messages_fonctionne_t_il%3Fstep%3D5&nc=$notifID.$confID" style="font-size: 12px; color: rgb(0, 68, 138); font-family: Arial,Helvetica,sans-serif; text-decoration: none;">How to set up your voicemail</a></span></td>
+																								<td valign="top"><span  style="font-family: Arial,Helvetica,sans-serif; color: rgb(102, 102, 102); font-size: 12px;">&nbsp;</span></td>
+																								</tr>
+																							<tr>
+																							<td valign="top"><img src="http://callback.bell.ca/campaignmanagement/images/spacer.gif"alt="" style="display: block;" border="0" height="1" width="300">
+																							</td>
+																							<td valign="top"><img style="display: block;" alt=""  src="http://callback.bell.ca/campaignmanagement/images/spacer.gif"   border="0" height="4" width="140"></td>
+																							</tr>
+                                                                                            <tr>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=300 height=4></td>
+                                                                                                <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=140 height=4></td>
+                                                                                            </tr>
+																							#end																		
+																								</span></td>
+                                                                                                <td style="PADDING-LEFT: 5px" vAlign=top><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><br></span></span></td>
+                                                                                            </tr>
+                                                                                            <tr>
+                                                                                                <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20><font color=#666666 size=2 face=Arial>For complete plan details, 
+																								
+																								#if ($MYBELL_REG == "Y")
+																								log in to<a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=https%3A%2F%2Fmybell.bell.ca%2FLogin%3Flanguage%3Den&nc=$notifID.$confID" target=_blank>&nbsp;MyBell</a></font></td>
+																								#else
+																								register at<a style="COLOR: rgb(0,68,138); TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=https%3A%2F%2Fmybell.bell.ca%2FRegistration&nc=$notifID.$confID" target=_blank>&nbsp;MyBell</a></font></td>
+																							#end
+																						
+																							</tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                        </td>
+                                                                        <td vAlign=top width=25><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=25 height=1></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=15></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/inner_bottom.jpg" width=519 height=7></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                </td>
+                                                <td vAlign=top width=39><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=39 height=1></td>
+                                            </tr>
+                                            <!-- end account information -->
+														
+                                            <tr>
+                                                <!-- billing details -->
+                                                <td height=20 vAlign=top width=597><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20></td>
+                                            </tr>
+                                            <tr>
+                                                <td vAlign=top width=39><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=39 height=1></td>
+                                                <td height=8 vAlign=top width=519>
+                                                <table border=0 cellSpacing=0 cellPadding=0 width=519>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td vAlign=top><a name=Billing></a><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/inner_top.jpg" width=519 height=8></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="BORDER-LEFT: rgb(225,225,225) 1px solid; BACKGROUND-COLOR: rgb(255,255,255); BORDER-RIGHT: rgb(225,225,225) 1px solid" vAlign=top width=519>
+                                                            <table border=0 cellSpacing=0 cellPadding=0 width=517>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=15></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td vAlign=top width=25><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=25 height=1></td>
+                                                                        <td vAlign=top width=467>
+                                                                        <table border=0 cellSpacing=0 cellPadding=0 width=467>
+                                                                            <!-- REPLACED THIS: --><!--
+                                                                            <tr>
+                                                                                <td valign="top" width="11%" height="36"><img src="images/icon_billingdetails.jpg" alt="Billing" width="37" height="36" border="0" style="display:block;"></td>
+                                                                                <td valign="middle" width="89%" height="36" style="font-size:20px; color:#000000; font-family:Arial, Helvetica, sans-serif;">Your billing details.</td>
+                                                                            </tr>
+                                                                            --><!-- WITH THIS: --><!-- START -->
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2>
+                                                                                    <table border=0 cellSpacing=0 cellPadding=0 width="100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td height=36 vAlign=top width="11%"><img style="DISPLAY: block" border=0 alt=Billing src="http://callback.bell.ca/campaignmanagement/images/icon_billingdetails.jpg" width=37 height=36></td>
+                                                                                                <td style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,0,0); FONT-SIZE: 20px" height=36 vAlign=middle width="89%">Your billing details.</td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                    </td>
+																					
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">Your <a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2FBilling-and-Accounts%2FBilling%2FHow_to_understand_my_Bell_mobility_bill&nc=$notifID.$confID" target=_blank>first bill</a> will be higher than future bills because it may include one-time charges. Plus, your monthly fees and any added services are billed one month in advance. You'll also see some partial charges from when your service was activated on <strong>$ACTIVATION_DATE</strong> until your bill date <strong>$BILL_DATE</strong>.
+																					
+																					<!--
+																					#if ($PAPER_INV_CHARGE_TEXT == "Y" ) -->
+																					<!--$PAPERINVCHARGETEXT-->
+																					<!--
+																					<br><br>
+																					<b>Monthly paper invoice charge:</b> $2 <br>
+																					<a href="https://servicemobility.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2Fbilling-and-accounts%2Fbilling%2Fwhat_is_e_bill_and_how_do_i_register_for_it%3Fstep%3D2&nc=$notifID.$confID"
+																					target="_blank"  style="font-size: 12px; color: rgb(0, 68, 138); font-family: Arial,Helvetica,sans-serif; text-decoration: none;">Sign up for e-bill</a> and save the $2 paper bill charge each month. Plus, you get 24/7 access to your bill online, which you can choose to print anytime.
+																					#end  -->
+																					
+																				  
+																				  #if ("$SPND_CAP_IMT" == "" || $SPND_CAP_IMT == "0")<!--$CREDITLIMIT --> 
+																				  <br><br>	
+																				   <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20> </td>
+																				   #else
+																				   
+																					<br><br><b>Your account credit limit:</b> $&nbsp;$SPND_CAP_IMT
+																					<br>This is a pre-set spending limit. If your usage exceeds this amount, you will be notified by text or phone and your service will be placed on hold until payment is received.
+																					#end
+																					</span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=10></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2>
+                                                                                    <table border=0 cellSpacing=0 cellPadding=0>
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td height=15 vAlign=middle><a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2FBilling-and-Accounts%2FBilling%2FHow_to_understand_my_Bell_mobility_bill&nc=$notifID.$confID" target=_blank>Learn more</a></td>
+                                                                                                <td height=15 vAlign=top><a href="https://servicemobilite.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2FBilling-and-Accounts%2FBilling%2FHow_to_understand_my_Bell_mobility_bill&nc=$notifID.$confID" target=_blank><img style="BORDER-BOTTOM: 0px solid; BORDER-LEFT: 0px solid; WIDTH: 20px; DISPLAY: block; HEIGHT: 15px; BORDER-TOP: 0px solid; BORDER-RIGHT: 0px solid" alt="" src="http://callback.bell.ca/campaignmanagement/images/arrow.jpg"></a></td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                        </td>
+                                                                        <td vAlign=top width=25><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=25 height=1></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=15></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/inner_bottom.jpg" width=519 height=7></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                </td>
+                                                <td vAlign=top width=39><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=39 height=1></td>
+                                            </tr>
+                                            <!-- end billing details --><!-- how to manage your account -->
+                                            <tr>
+                                                <td height=20 vAlign=top width=597><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20></td>
+                                            </tr>
+                                            <tr>
+                                                <td vAlign=top width=39><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=39 height=1></td>
+                                                <td height=8 vAlign=top width=519>
+                                                <table border=0 cellSpacing=0 cellPadding=0 width=519>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td vAlign=top><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/inner_top.jpg" width=519 height=8></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="BORDER-LEFT: rgb(225,225,225) 1px solid; BACKGROUND-COLOR: rgb(255,255,255); BORDER-RIGHT: rgb(225,225,225) 1px solid" vAlign=top width=519><a name=SelfServe></a>
+                                                            <table border=0 cellSpacing=0 cellPadding=0 width=517>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=15></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td vAlign=top width=25><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=25 height=1></td>
+                                                                        <td vAlign=top width=467>
+                                                                        <table border=0 cellSpacing=0 cellPadding=0 width=467>
+                                                                            <!-- REPLACED THIS: --><!--
+                                                                            <tr>
+                                                                                <td valign="top" width="11%" height="36"><img src="images/icon_manageaccount.jpg" alt="Manage" width="37" height="36" border="0" style="display:block;"></td>
+                                                                                <td valign="middle" width="89%" height="36"><span style="font-size:20px; color:#000000; font-family:Arial, Helvetica, sans-serif;">How to manage your account.</span></td>
+                                                                            </tr>
+                                                                            --><!-- WITH THIS: --><!-- START -->
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2>
+                                                                                    <table border=0 cellSpacing=0 cellPadding=0 width="100%">
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <td height=36 vAlign=top width="11%"><img style="DISPLAY: block" border=0 alt=Manage src="http://callback.bell.ca/campaignmanagement/images/icon_manageaccount.jpg" width=37 height=36></td>
+                                                                                                <td height=36 vAlign=middle width="89%"><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,0,0); FONT-SIZE: 20px">How to manage your account.</span></td>
+                                                                                            </tr>
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <!-- END -->
+                                                                                <tr>
+                                                                                    <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">Check and update your account quickly and easily online via <a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=https%3A%2F%2Fmybell.bell.ca%2FLogin&nc=$notifID.$confID" target=_blank>MyBell</a> 
+																					
+																					#if ($TURBOSTICKIND != "Y")  <!-- $DEVICEBASEDTEXT_1 -->
+																					or use the <a style="font-family: Arial,Helvetica,sans-serif; color: rgb(0, 68, 138); font-size: 12px; text-decoration: none;"
+																					href="https://servicemobility.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2FMobility%2FSelf_Serve_options%2FBell-Self-serve-app&nc=$notifID.$confID"
+																					 target="_blank">Self&nbsp;serve app</a> on your phone anytime, anywhere.</span></td>
+																					#end
+																				</tr>
+                                                                                <tr>
+                                                                                    <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=10></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2>
+                                                                                    <table border=0 cellSpacing=0 cellPadding=0>
+                                                                                        <tbody>
+																						<tr> 
+																						#if ($MYBELL_REG == "Y")
+																						<td height=15 vAlign=middle><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://mybell.bell.ca/Login" target=_blank>Log in MyBell</a></span></td>
+																						<td height=15 vAlign=top width=16><a href="https://servicemobility.bell.ca/TE/CT.do?d=https%3A%2F%2Fmybell.bell.ca%2FLogin&nc=$notifID.$confID" target=_blank><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/arrow.jpg" width=20 height=15></a></td>
+																						#else
+																						<a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=https%3A%2F%2Fmybell.bell.ca%2FRegistration&nc=$notifID.$confID" target=_blank>Register at MyBell</a></span></td>
+																						<td height=15 vAlign=top width=16><a href="https://servicemobility.bell.ca/TE/CT.do?d=https%3A%2F%2Fmybell.bell.ca%2FRegistration&nc=$notifID.$confID" target=_blank><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/arrow.jpg" width=20 height=15></a></td>
+																						#end
+																						</tr>
+																                       </tbody>
+                                                                                    </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=10></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;Check your balance</span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">
+																					
+																					#if ($TURBOSTICKIND == "Y")  <!-- DEVICEBASEDTEXT_2 -->
+																					&#8226;&nbsp;&nbsp;View your usage
+																					#elseif ($TURBOSTICKIND != "Y")
+																					&#8226;&nbsp;&nbsp;View your voice, data and text usage
+																					#end
+																					</span></td>
+															
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;Change your plan</span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;Manage your communication preferences </span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;Manage travel add-ons</span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;Change your billing address, add another account contact, and more. </span></td>
+                                                                                </tr>
+																				 <tr>
+                                                                                    <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=10></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <tr>
+                                                                                        <td vAlign=top colSpan=2>
+                                                                                        <table border=0 cellSpacing=0 cellPadding=0>
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td height=15 vAlign=middle><a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2FMobility%2FSelf_Serve_options&nc=$notifID.$confID" target=_blank>Learn more</a></td>
+                                                                                                    <td height=15 vAlign=top><a href="https://servicemobilite.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2FMobility%2FSelf_Serve_options&nc=$notifID.$confID" target=_blank><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/arrow.jpg" width=20 height=15></a></td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                            </td>
+                                                                            <td vAlign=top width=25><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=25 height=1></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=15></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/inner_bottom.jpg" width=519 height=7></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    </td>
+                                                    <td vAlign=top width=39><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=39 height=1></td>
+                                                </tr>
+                                                <!-- end how to manage your account -->
+									
+												<!-- getting started -->$URL02
+                                                <tr>
+                                                    <td height=20 vAlign=top width=597><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20></td>
+                                                </tr>
+                                                <tr>
+                                                    <td vAlign=top width=39><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=39 height=1></td>
+                                                    <td height=8 vAlign=top width=519>
+                                                    <table border=0 cellSpacing=0 cellPadding=0 width=519>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td vAlign=top><a name=GettingStarted></a><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/inner_top.jpg" width=519 height=8></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td style="BORDER-LEFT: rgb(225,225,225) 1px solid; BACKGROUND-COLOR: rgb(255,255,255); BORDER-RIGHT: rgb(225,225,225) 1px solid" vAlign=top width=519>
+                                                                <table border=0 cellSpacing=0 cellPadding=0 width=517>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=15></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td vAlign=top width=25><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=25 height=1></td>
+                                                                            <td vAlign=top width=467>
+                                                                            <table border=0 cellSpacing=0 cellPadding=0 width=467>
+                                                                                <!-- REPLACED THIS: --><!--
+                                                                                <tr>
+                                                                                    <td valign="top" width="11%" height="36"><img src="images/icon_gettingstarted.jpg" alt="Get Started" width="38" height="36" border="0" style="display:block;"></td>
+                                                                                    <td valign="middle" width="89%" height="36"><span style="font-size:20px; color:#000000; font-family:Arial, Helvetica, sans-serif;">Getting started.</span></td>
+                                                                                </tr>
+                                                                                --><!-- WITH THIS: --><!-- START -->
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td vAlign=top colSpan=2>
+                                                                                        <table border=0 cellSpacing=0 cellPadding=0 width="100%">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td height=36 vAlign=top width="11%"><img style="DISPLAY: block" border=0 alt="Get Started" src="http://callback.bell.ca/campaignmanagement/images/icon_gettingstarted.jpg" width=38 height=36></td>
+                                                                                                    <td height=36 vAlign=middle width="89%"><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,0,0); FONT-SIZE: 20px">Getting started.</span></td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <!--end-->
+                                                                                    <tr>
+                                                                                        <td colSpan=2><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20></td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">Make the most of your Bell Mobility service with our <a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2FMobility%2FSmartphones_and_mobile_internet%2FGetting-started-with-Mobility&nc=$notifID.$confID" target=_blank>helpful online resources</a>, such as:</span></td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td colSpan=2><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td vAlign=top colSpan=2>
+                                                                                        <table border=0 cellSpacing=0 cellPadding=0 width=467>
+                                                                                            <tbody>
+                                                                                                <tr>
+																								#if ("$DEVICE_LINK" == "")
+                                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;<a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://servicemobility.bell.ca/TE/CT.do?d=http%3A%2F%2Fbell.ca%2Fuserguides&nc=$notifID.$confID" target=_blank>Device-specific tutorials and user guides</a> </span></td>
+                                                                                                #else 
+																									 <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;<a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="$DEVICE_LINK" target=_blank>Device-specific tutorials and user guides</a> </span></td>
+																								#end
+																								</tr>
+                                                                                                <tr>
+                                                                                                    <td colSpan=2><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;Wi-Fi connection tips</span></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td colSpan=2><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;Suggestions for travelling with your device</span></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td colSpan=2><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=4></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px">&#8226;&nbsp;&nbsp;How to check your data usage, voicemail set up, and more</span></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td vAlign=top colSpan=2><span style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(102,102,102); FONT-SIZE: 12px"><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=467 height=10></span></td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td vAlign=top colSpan=2>
+                                                                                                    <table border=0 cellSpacing=0 cellPadding=0>
+                                                                                                        <tbody>
+                                                                                                            <tr>
+                                                                                                                <td height=15 vAlign=middle><a style="FONT-FAMILY: Arial,Helvetica,sans-serif; COLOR: rgb(0,68,138); FONT-SIZE: 12px; TEXT-DECORATION: none" href="https://servicemobilite.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2FMobility%2FSmartphones_and_mobile_internet%2FGetting-started-with-Mobility&nc=$notifID.$confID" target=_blank>Learn more</a></td>
+                                                                                                                <td height=15 vAlign=top><a href="https://servicemobilite.bell.ca/TE/CT.do?d=http%3A%2F%2Fsupport.bell.ca%2FMobility%2FSmartphones_and_mobile_internet%2FGetting-started-with-Mobility&nc=$notifID.$confID" target=_blank><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/arrow.jpg" width=20 height=15></a></td>
+                                                                                                            </tr>
+                                                                                                        </tbody>
+                                                                                                    </table>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                            </td>
+                                                                            <td vAlign=top width=25><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=25 height=1></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td colSpan=3><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=15></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><img style="DISPLAY: block" border=0 alt="" src="http://callback.bell.ca/campaignmanagement/images/inner_bottom.jpg" width=519 height=7></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    </td>
+                                                    <td vAlign=top width=39><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=39 height=1></td>
+                                                </tr>
+                                                <!-- end getting started -->
+                                                <tr>
+                                                    <td height=20 vAlign=top width=597><img style="DISPLAY: block" alt="" src="http://callback.bell.ca/campaignmanagement/images/spacer.gif" width=1 height=20></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </td>
+            </tr>
